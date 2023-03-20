@@ -5,7 +5,9 @@ import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
-import tabImage1 from 'assets/images/tab-illustration-1.png';
+import tabImage1 from 'assets/images/tab1.png';
+import tabImage2 from 'assets/images/tab2.png';
+import tabImage3 from 'assets/images/tab3.png';
 
 const data = [
   {
@@ -28,7 +30,7 @@ const data = [
     title: `We will turn your idea in the successful business model framework`,
     description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
     moreLink: '#explore-more',
-    image: tabImage1,
+    image: tabImage2,
     list: [
       'Medical and vision',
       'Life insurance',
@@ -42,7 +44,7 @@ const data = [
     title: `We will turn your idea in the successful business model framework`,
     description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
     moreLink: '#explore-more',
-    image: tabImage1,
+    image: tabImage3,
     list: [
       'Medical and vision',
       'Life insurance',
